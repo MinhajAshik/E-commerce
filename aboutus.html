@@ -1,0 +1,108 @@
+<!Doctype html>
+<html>
+<head>
+	<title>About Us</title>
+    <link rel="stylesheet"  href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+<div class="top-nav-bar">
+<div class="search-box">
+	<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+	<i class="fa fa-times" id="cls-btn" onclick="closemenu()"></i>
+<a href="index.php"><img src="images/prototype.png" class="logo"></a>
+<input type="text" class="form-control">
+<span class="input-group-text">
+<i class="fa fa-search"></i>
+</span>	
+</div>
+<div class="menu-bar">
+	<ul>
+		<li><a href="#"><i class="fa fa-shopping-basket"></i>  Cart</a></li>
+		<li><a href="#">Sign up</a></li>
+		<li><a href="#">Log In</a></li>
+	</ul>
+	
+
+</div>
+</div>
+
+<!-------------About Us------------------->
+<div class="wrapper">
+    <h1>Our Team</h1>
+    <div class="our_team">
+        <div class="team_member">
+          <div class="member_img">
+             <img src="Images/abta.jpg" alt="our_team">
+            <div class="social_media">
+               <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+               <div class="twitter item"><i class="fab fa-twitter"></i></div>
+               <div class="instagram item"><i class="fab fa-instagram"></i></div>
+             </div>
+          </div>
+          <h3>Ashik</h3>
+          <span>CEO</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis, error deleniti quaerat beatae doloribus incidunt excepturi. Fugit deleniti accusantium neque hic quidem voluptatibus cumque.</p>
+        </div>
+        <div class="team_member">
+           <div class="member_img">
+             <img src="Images/abts.jpg" alt="our_team">
+             <div class="social_media">
+               <div class="facebook item"><i class="fab fa-facebook-f"></i></div>
+               <div class="twitter item"><i class="fab fa-twitter"></i></div>
+               <div class="instagram item"><i class="fab fa-instagram"></i></div>
+             </div>
+          </div>
+          <h3>Shazid</h3>
+          <span>CEO</span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores maiores temporibus, architecto optio asperiores mollitia pariatur error, quaerat voluptatibus minima eos quo nostrum, maxime necessitatibus.</p>
+      </div>
+
+ 
+    </div>
+</div>	
+
+
+
+<!----------------------------Footer--------------------->
+
+
+
+
+
+
+
+<script>
+	function openmenu()
+	{
+		document.getElementById("side-menu").style.display="block";
+		document.getElementById("menu-btn").style.display="none";
+		document.getElementById("cls-btn").style.display="block";
+	}
+	function closemenu()
+	{
+		document.getElementById("side-menu").style.display="none";
+		document.getElementById("menu-btn").style.display="block";
+		document.getElementById("cls-btn").style.display="none";
+	}
+	
+
+
+
+</script>
+
+
+
+
+</body>
+</html>	
